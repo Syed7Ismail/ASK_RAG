@@ -1,23 +1,94 @@
-# ASK_RAG
-ASK is an AI-powered knowledge assistant that uses Retrieval-Augmented Generation (RAG) to answer questions from uploaded documents. It also provides authentic news updates on cybersecurity and warfare.
+**🤖 ASK — AI RAG Assistant**
+Smarter Answers with Real Context
 
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+
+# Upload Documents:
+
+ASK is a modern Retrieval-Augmented Generation (RAG) based AI assistant that delivers accurate, context-aware responses by combining user queries with relevant external knowledge.
+
+Unlike traditional AI systems, ASK doesn't rely only on static training data — it retrieves real context first, then generates smarter answers.
+
+**🧠 How It Works**
+User Query → Retrieve Relevant Data → Inject Context → Generate Response
+🔍 Finds relevant information
+📚 Injects real context into the model
+🤖 Produces more accurate, grounded answers
+✨ Features
+⚡ Lightning-fast frontend with Vite
+🔍 Context-aware AI responses
+📚 Retrieval-based architecture
+🧠 Smarter than traditional AI chatbots
+🧩 Scalable for future AI integrations
+🏗️ Architecture (Simple View)
+Frontend (Vite)
+      ↓
+User Query
+      ↓
+Retrieval Layer (Docs / Data)
+      ↓
+AI Model (RAG)
+      ↓
+Response to User
+📸 Preview
+
+(Add your screenshot here later for a strong visual impact)
+
+/assets/preview.png
+**🛠️ Tech Stack**
+Frontend: HTML5, JavaScript
+Build Tool: Vite
+Architecture: Retrieval-Augmented Generation (RAG)
+
+**📁 Project Structure**
+├── index.html
+├── src/
+│   └── main.jsx
+├── public/
+├── package.json
+
+**⚡ Getting Started**
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/ask-rag.git
+cd ask-rag
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Run the App
+npm run dev
+
+📦 Build for Production
+npm run build
+
+**🔮 Roadmap**
+🔗 Vector database integration (Pinecone / FAISS)
+🔐 Authentication system
+🧾 Chat history & memory
+🌍 Multi-source knowledge retrieval
+📡 Backend API for scaling
+🤝 Contributing
+
+Contributions, ideas, and improvements are welcome.
+Feel free to fork the repo and submit a pull request.
+
+**📄 License**
+
+MIT License © 2026
+
+**💡 Vision**
+
+Build AI that doesn’t just answer — but understands with context.
 
 ## Images
 
